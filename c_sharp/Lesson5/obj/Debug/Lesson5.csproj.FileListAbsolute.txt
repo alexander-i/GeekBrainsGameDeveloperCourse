@@ -1,0 +1,7 @@
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson5\bin\Debug\Lesson5.exe.config
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson5\bin\Debug\Lesson5.exe
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson5\bin\Debug\Lesson5.pdb
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson5\obj\Debug\Lesson5.csprojAssemblyReference.cache
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson5\obj\Debug\Lesson5.csproj.CoreCompileInputs.cache
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson5\obj\Debug\Lesson5.exe
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson5\obj\Debug\Lesson5.pdb
