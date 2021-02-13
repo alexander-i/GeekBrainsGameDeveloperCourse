@@ -30,7 +30,7 @@ namespace Lesson6
         public string department;
         public int group;
         public string city;
-        int age;
+        public int age;
         // Создаем конструктор
         public Student(string firstName, string lastName, string university, string faculty, string department, int course, int age, int group, string city)
         {
@@ -51,6 +51,13 @@ namespace Lesson6
         static int MyDelegate(Student st1, Student st2)
         {
             return String.Compare(st1.firstName, st2.firstName);
+        }
+
+        static int MyDelegateAge(Student st1, Student st2)
+        {
+            if (st1.age > st2.age) { return 1; }
+            else if (st1.age == st2.age) { return 0; }
+            else { return -1; }
         }
 
         public static void Demo()
@@ -81,7 +88,30 @@ namespace Lesson6
             Console.WriteLine("Всего студентов:" + list.Count);
             Console.WriteLine("Магистров:{0}", magistr);
             Console.WriteLine("Бакалавров:{0}", bakalavr);
-            foreach (var v in list) Console.WriteLine(v.firstName);
+
+            Console.WriteLine();
+
+            int[,] freqArray = new int[,] {
+                {18,0}, {19,0}, {20,0}
+            };
+
+            foreach(Student s in list)
+            {
+                if (s.age == 18) { freqArray[0, 1]++; }
+                if (s.age == 19) { freqArray[1, 1]++; }
+                if (s.age == 20) { freqArray[2, 1]++; }
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"Студентов возраста {freqArray[i, 0]}: {freqArray[i, 1]}");
+            }
+
+            Console.WriteLine();
+            foreach (var v in list) Console.WriteLine($"{v.firstName}, {v.age}");
+            list.Sort(new Comparison<Student>(MyDelegateAge));
+            Console.WriteLine("Сортированный по возрасту список:");
+            foreach (var v in list) Console.WriteLine($"{v.firstName}, {v.age}");
             Console.WriteLine(DateTime.Now - dt);
 
         }
