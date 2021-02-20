@@ -111,7 +111,7 @@ namespace Lesson8
                 MessageBox.Show("Создайте новую базу данных", "Сообщение");
             }
         }
-
+         
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string msg = "Авторы: GeekBrains, Alex Ivanov\nВерсия: 0.1\nАвторские права: BSD";
@@ -128,6 +128,7 @@ namespace Lesson8
 
             if (sfd.ShowDialog() == DialogResult.OK)
             {
+                database.FileName = sfd.FileName;
                 if (database != null) database.Save();
                 else MessageBox.Show("База данных не создана");
             }
