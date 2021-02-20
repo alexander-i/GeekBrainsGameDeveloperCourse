@@ -1,0 +1,11 @@
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\obj\Debug\Lesson7.csprojAssemblyReference.cache
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\obj\Debug\Lesson7.Form1.resources
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\obj\Debug\Lesson7.Properties.Resources.resources
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\obj\Debug\Lesson7.csproj.GenerateResource.cache
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\obj\Debug\Lesson7.csproj.CoreCompileInputs.cache
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\bin\Debug\Lesson7.exe.config
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\bin\Debug\Lesson7.exe
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\bin\Debug\Lesson7.pdb
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\obj\Debug\Lesson7.exe
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\obj\Debug\Lesson7.pdb
+C:\Users\almiv\Dev\geekbrains\c_sharp\Lesson7\obj\Debug\Lesson7.Form2.resources
